@@ -1,0 +1,50 @@
+.main_div{
+    text-align: center;
+}
+.inputBar{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.inputBar:focus{
+    outline: none;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.addButton{
+    background-color: transparent;
+    width: 80px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    transition: transform .5s;
+    transition: .5s;
+}
+.addButton:hover{
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1);
+    background-color: #dfeeea;
+}
+.todoList{
+    font-size: 30px;
+    font-weight: bolder;
+    list-style-type: none;
+    text-decoration: underline;
+}
+.delButton{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 3px; 
+    transition: transform .5s;
+    transition: .5s;  
+}
+.delButton:hover{
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(0.8);
+    background-color: #dfeeea;
+}
